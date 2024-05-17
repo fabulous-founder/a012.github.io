@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>零一二科技</title>
+    <style>
+        @font-face {
+            font-family: 'PingFang SC';
+            font-weight: 600;
+            src: local('PingFang SC SemiBold');
+        }
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 90vh;
+            font-family: 'PingFang SC', Arial, sans-serif;
+            background-color: #121212;
+            color: #ffffff;
+            margin: 0;
+            padding: 0;
+        }
+        h1 {
+            font-size: 2.5em;
+            font-weight: 600;
+            text-align: center;
+            letter-spacing: 0.05em;
+            line-height: 1.4;
+            white-space: nowrap;
+            overflow: hidden;
+            animation: typing 6s steps(40, end);
+        }
+        footer {
+            position: absolute;
+            bottom: 18px;
+            font-size: 0.9em;
+            color: #aaaaaa;
+            text-align: center;
+            width: 100%;
+        }
+        footer a {
+            color: #888888;
+            text-decoration: none;
+        }
+        footer a:hover {
+            text-decoration: underline;
+        }
+        @keyframes typing {
+            from { width: 0; }
+            to { width: 100%; }
+        }
+        @media (max-width: 768px) {
+            h1 { font-size: 1em; } /* 为手机端减小字体大小 */
+        }
+        @media (min-width: 769px) and (max-width: 1024px) {
+            h1 { font-size: 1.5em; } /* 为iPad端减小字体大小 */
+        }
+    </style>
+</head>
+<body>
+    <h1 class="typed-text">零一二科技，让有趣便捷的疗愈方式变得更加普及</h1>
+    <footer>
+        <a href="http://beian.miit.gov.cn/" target="_blank">备案号：沪ICP备2024067495号-2</a>
+    </footer>
+</body>
+</html>
